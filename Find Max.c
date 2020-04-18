@@ -16,6 +16,7 @@ int main()
         if(num[i]>max)
         {
             max=num[i];
+            printf("\n max : %d\n",max);
         }
     }
     printf("\nmax is : %d", max);
